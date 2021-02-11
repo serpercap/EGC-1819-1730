@@ -10,18 +10,11 @@ before_script:
 language: python
 python:
 - '3.6'
-<<<<<<< HEAD
 branches:
 only:
 - master
-=======
->>>>>>> desarrollo
 install:
 - pip install -r requirements.txt
 script:
 - cd decide
-<<<<<<< HEAD
 - python ./manage.py test
-=======
-- python ./manage.py test store
->>>>>>> desarrollo
